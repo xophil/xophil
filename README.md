@@ -1,19 +1,21 @@
-# Hi there, I'm Sophil Sthapit 👋
+# Hi, I'm Sophil Sthapit 👋
 
-Welcome to my GitHub! I'm a **Cybersecurity Enthusiast** and **Full-Stack Developer** with a passion for creating secure, user-friendly software and exploring new tech.
-
----
-
-## 🔹 About Me
-- 🎓 BCA in Cybersecurity from Bangalore, India
-- 💻 Skilled in **Python, JavaScript, React, Tailwind CSS**
-- 🎨 Background in **Digital & 3D Art**, with experience in **3D Animation**
-- 🛡️ Exploring **Security Tools, Ethical Hacking, and Pen-Testing**
-- 🌱 Currently learning **Advanced Web Security, Cloud Security, and AI Integration**
+Welcome to my GitHub! I'm a **Cybersecurity Enthusiast** and **Full-Stack Developer**, passionate about securing systems and creating innovative solutions.  
 
 ---
 
-## 🛠️ Technologies & Tools
+## 🛡️ Cybersecurity Journey
+I hold a **Bachelor's in Computer Applications (BCA)** and specialize in **ethical hacking, penetration testing, and web security**. My goal is to continuously learn, practice, and contribute to making the digital world safer.  
+
+### Areas of Expertise:
+- Security Tools & Penetration Testing  
+- Ethical Hacking & Vulnerability Assessment  
+- Web & Mobile Application Security  
+- Cloud & AI-Driven Security  
+
+---
+
+## 🛠️ Tech Stack & Tools
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
@@ -24,17 +26,29 @@ Welcome to my GitHub! I'm a **Cybersecurity Enthusiast** and **Full-Stack Develo
 ---
 
 ## 🌱 Current Projects
-- **Easy_Hack**: A self-learning platform for cybersecurity students
-- **Empowering Android Users**: Mobile security-focused Android app
-- **Full-stack Sports E-commerce Website**: Built with React and Tailwind CSS
+- **Easy_Hack** – Self-learning platform for cybersecurity students.  
+- **Empowering Android Users** – Mobile security-focused Android app.  
+- **Full-Stack E-Commerce Website** – Built with React & Tailwind CSS.  
+
+---
+
+## 📊 GitHub Stats
+![Sophil's GitHub Stats](https://github-readme-stats.vercel.app/api?username=xophil&show_icons=true&theme=dark&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=xophil&layout=compact&theme=dark)
+
+---
+
+## 🏆 TryHackMe / CTF Badges
+![TryHackMe](https://img.shields.io/badge/TryHackMe-Cybersecurity-blue?style=for-the-badge&logo=tryhackme)
+![Hack The Box](https://img.shields.io/badge/HackTheBox-CTF-purple?style=for-the-badge&logo=hackthebox)
 
 ---
 
 ## 📫 Connect with Me
-- [LinkedIn](https://www.linkedin.com/in/sophilsthapit/)
-- [Portfolio](#) *(Add your portfolio link)*
-- [Email](mailto:sphlsth@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sophilsthapit/)  
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sphlsth@gmail.com)
 
 ---
 
-> “Learning never exhausts the mind.” – Leonardo da Vinci
+> “Security is not a product, but a process.” – Bruce Schneier
