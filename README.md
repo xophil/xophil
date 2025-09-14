@@ -1,6 +1,7 @@
-Hi, I'm Sophil Sthapit 👋
+<h1 align="center">Hi, I'm Sophil Sthapit 👋</h1>
 
-Welcome to my GitHub! I'm a **Cybersecurity Enthusiast**, passionate about securing systems and creating innovative solutions.  
+<h3 align="center"> Welcome to my GitHub! I'm a **Cybersecurity Enthusiast**, passionate about securing systems and creating innovative solutions.</h3>
+
 
 ---
 
