@@ -81,28 +81,3 @@ I hold a **Bachelor's in Computer Applications (BCA)** and specialize in **ethic
 
 > “Security is not a product, but a process.” – Bruce Schneier
 
-![Parrot Security OS](https://img.shields.io/badge/Parrot_Security-4CBF50?style=for-the-badge&logo=parrot&logoColor=white)
-
-
----
-
-## 🌱 Current Projects
-- **Easy_Hack** – Self-learning platform for cybersecurity students.  
-- **Empowering Android Users** – Mobile security-focused Android app.  
-
----
-
-## 📊 GitHub Stats
-![Sophil's GitHub Stats](https://github-readme-stats.vercel.app/api?username=xophil&show_icons=true&theme=dark&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=xophil&layout=compact&theme=dark)
-
----
-
-## 📫 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sophil-sthapit/)  
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sophilsthapit01@gmail.com)
-
----
-
-> “Security is not a product, but a process.” – Bruce Schneier
