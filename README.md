@@ -24,6 +24,15 @@ I hold a **Bachelor's in Computer Applications (BCA)** and specialize in **ethic
 
 ---
 
+## 🛠️ Cybersecurity Tools & Platforms
+![TryHackMe](https://img.shields.io/badge/TryHackMe-Cybersecurity-blue?style=for-the-badge&logo=tryhackme)
+![Hack The Box](https://img.shields.io/badge/HackTheBox-CTF-purple?style=for-the-badge&logo=hackthebox)
+![Wireshark](https://img.shields.io/badge/Wireshark-Networking-blue?style=for-the-badge&logo=wireshark)
+![Nmap](https://img.shields.io/badge/Nmap-Scanning-red?style=for-the-badge&logo=nmap)
+![Metasploit](https://img.shields.io/badge/Metasploit-PenTest-black?style=for-the-badge&logo=metasploit)
+
+---
+
 ## 🌱 Current Projects
 - **Easy_Hack** – Self-learning platform for cybersecurity students.  
 - **Empowering Android Users** – Mobile security-focused Android app.  
@@ -34,12 +43,6 @@ I hold a **Bachelor's in Computer Applications (BCA)** and specialize in **ethic
 ![Sophil's GitHub Stats](https://github-readme-stats.vercel.app/api?username=xophil&show_icons=true&theme=dark&count_private=true)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=xophil&layout=compact&theme=dark)
-
----
-
-## 🏆 TryHackMe / CTF Badges
-![TryHackMe](https://img.shields.io/badge/TryHackMe-Cybersecurity-blue?style=for-the-badge&logo=tryhackme)
-![Hack The Box](https://img.shields.io/badge/HackTheBox-CTF-purple?style=for-the-badge&logo=hackthebox)
 
 ---
 
