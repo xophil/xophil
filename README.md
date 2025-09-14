@@ -1,6 +1,6 @@
 # Hi, I'm Sophil Sthapit 👋
 
-Welcome to my GitHub! I'm a **Cybersecurity Enthusiast** and **Full-Stack Developer**, passionate about securing systems and creating innovative solutions.  
+Welcome to my GitHub! I'm a **Cybersecurity Enthusiast**, passionate about securing systems and creating innovative solutions.  
 
 ---
 
@@ -11,7 +11,6 @@ I hold a **Bachelor's in Computer Applications (BCA)** and specialize in **ethic
 - Security Tools & Penetration Testing  
 - Ethical Hacking & Vulnerability Assessment  
 - Web & Mobile Application Security  
-- Cloud & AI-Driven Security  
 
 ---
 
@@ -28,7 +27,6 @@ I hold a **Bachelor's in Computer Applications (BCA)** and specialize in **ethic
 ## 🌱 Current Projects
 - **Easy_Hack** – Self-learning platform for cybersecurity students.  
 - **Empowering Android Users** – Mobile security-focused Android app.  
-- **Full-Stack E-Commerce Website** – Built with React & Tailwind CSS.  
 
 ---
 
