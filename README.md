@@ -1,125 +1,123 @@
-import requests
 
-# ==========================
-# CONFIGURATION
-# ==========================
-GITHUB_USERNAME = "sophilsthapit"
-EMAIL = "sophilsthapit01@gmail.com"
-LINKEDIN = "https://www.linkedin.com/in/sophil-sthapit/"
-X_LINK = "https://x.com/thesilentsystm"
-OS = "Linux Mint"
-AGE = "21 years"
-PROGRAMMING_LANGUAGES = "Python, JavaScript"
-COMPUTER_LANGUAGES = "HTML"
-REAL_LANGUAGES = "English, Nepali, Hindi, Newari"
-HOBBIES = "Music, Art, Coding"
-SVG_FILE = "profile.svg"
+<h1 align="center">
+  <br>
+  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
+  <br>
+  Markdownify
+  <br>
+</h1>
 
-# ==========================
-# FETCH GITHUB DATA
-# ==========================
-def get_github_stats(username):
-    user_url = f"https://api.github.com/users/{username}"
-    repos_url = f"https://api.github.com/users/{username}/repos?per_page=100"
+<h4 align="center">A minimal Markdown Editor desktop app built on top of <a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
 
-    user_data = requests.get(user_url).json()
-    repos_data = requests.get(repos_url).json()
+<p align="center">
+  <a href="https://badge.fury.io/js/electron-markdownify">
+    <img src="https://badge.fury.io/js/electron-markdownify.svg"
+         alt="Gitter">
+  </a>
+  <a href="https://gitter.im/amitmerchant1990/electron-markdownify"><img src="https://badges.gitter.im/amitmerchant1990/electron-markdownify.svg"></a>
+  <a href="https://saythanks.io/to/bullredeyes@gmail.com">
+      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
+  </a>
+  <a href="https://www.paypal.me/AmitMerchant">
+    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
+  </a>
+</p>
 
-    repo_count = user_data.get("public_repos", 0)
+<p align="center">
+  <a href="#key-features">Key Features</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#download">Download</a> •
+  <a href="#credits">Credits</a> •
+  <a href="#related">Related</a> •
+  <a href="#license">License</a>
+</p>
 
-    total_commits = 0
-    for repo in repos_data:
-        repo_name = repo["name"]
-        commits_url = f"https://api.github.com/repos/{username}/{repo_name}/commits?author={username}&per_page=1"
-        # Use GitHub Link header to get total count from pagination
-        r = requests.get(commits_url)
-        if "Link" in r.headers:
-            # Parse last page number
-            links = r.headers["Link"].split(",")
-            for link in links:
-                if 'rel="last"' in link:
-                    last_url = link.split(";")[0].strip()[1:-1]
-                    total_commits += int(last_url.split("page=")[-1])
-                    break
-        else:
-            total_commits += len(r.json())
+![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
 
-    return repo_count, total_commits
+## Key Features
 
-repo_count, commit_count = get_github_stats(GITHUB_USERNAME)
+* LivePreview - Make changes, See changes
+  - Instantly see what your Markdown documents look like in HTML as you create them.
+* Sync Scrolling
+  - While you type, LivePreview will automatically scroll to the current location you're editing.
+* GitHub Flavored Markdown  
+* Syntax highlighting
+* [KaTeX](https://khan.github.io/KaTeX/) Support
+* Dark/Light mode
+* Toolbar for basic Markdown formatting
+* Supports multiple cursors
+* Save the Markdown preview as PDF
+* Emoji support in preview :tada:
+* App will keep alive in tray for quick usage
+* Full screen mode
+  - Write distraction free.
+* Cross platform
+  - Windows, macOS and Linux ready.
 
-# ==========================
-# GENERATE SVG
-# ==========================
-svg_content = f"""<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="530px" font-size="16px">
-<style>
-@font-face {{
-src: local('Consolas'), local('Consolas Bold');
-font-family: 'ConsolasFallback';
-font-display: swap;
--webkit-size-adjust: 109%;
-size-adjust: 109%;
-}}
-.key {{fill: #953800;}}
-.value {{fill: #0a3069;}}
-.addColor {{fill: #1a7f37;}}
-.delColor {{fill: #cf222e;}}
-.cc {{fill: #c2cfde;}}
-text, tspan {{white-space: pre;}}
-</style>
-<rect width="985px" height="530px" fill="#f6f8fa" rx="15"/>
-<text x="15" y="30" fill="#24292f" class="ascii">
-<tspan x="15" y="30">                                                  </tspan>
-<tspan x="15" y="50">                                                  </tspan>
-<tspan x="15" y="70">                                                  </tspan>
-<tspan x="15" y="90">                                                  </tspan>
-<tspan x="15" y="110">                                                  </tspan>
-<tspan x="15" y="130">                                                  </tspan>
-<tspan x="15" y="150">                                                  </tspan>
-<tspan x="15" y="170">                                                  </tspan>
-<tspan x="15" y="190">                                                  </tspan>
-<tspan x="15" y="210">                                                  </tspan>
-<tspan x="15" y="230">                                                  </tspan>
-<tspan x="15" y="250">                                                  </tspan>
-<tspan x="15" y="270">                                                  </tspan>
-<tspan x="15" y="290">                                                  </tspan>
-<tspan x="15" y="310">                                                  </tspan>
-<tspan x="15" y="330">                                                  </tspan>
-<tspan x="15" y="350">                                                  </tspan>
-<tspan x="15" y="370">                                                  </tspan>
-<tspan x="15" y="390">                                                  </tspan>
-<tspan x="15" y="410">                                                  </tspan>
-<tspan x="15" y="430">                                                  </tspan>
-<tspan x="15" y="450">                                                  </tspan>
-<tspan x="15" y="470">                                                  </tspan>
-<tspan x="15" y="490">                                                  </tspan>
-<tspan x="15" y="510">                                                  </tspan>
-</text>
-<text x="390" y="30" fill="#24292f">
-<tspan x="390" y="30">{GITHUB_USERNAME}</tspan> -———————————————————————————————————————————-—-
-<tspan x="390" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">{OS}</tspan>
-<tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">{AGE}</tspan>
-<tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ..... </tspan><tspan class="value">{PROGRAMMING_LANGUAGES}</tspan>
-<tspan x="390" y="110" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Computer</tspan>:<tspan class="cc"> ......... </tspan><tspan class="value">{COMPUTER_LANGUAGES}</tspan>
-<tspan x="390" y="130" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">{REAL_LANGUAGES}</tspan>
-<tspan x="390" y="150" class="cc">. </tspan>
-<tspan x="390" y="170" class="cc">. </tspan><tspan class="key">Hobbies</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">{HOBBIES}</tspan>
-<tspan x="390" y="210" class="cc">- Contact</tspan> -——————————————————————————————————————————————-—-
-<tspan x="390" y="230" class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> ..................................... </tspan><tspan class="value">{EMAIL}</tspan>
-<tspan x="390" y="250" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> ...................................... </tspan><tspan class="value">{LINKEDIN}</tspan>
-<tspan x="390" y="270" class="cc">. </tspan><tspan class="key">X</tspan>:<tspan class="cc"> ..................................................... </tspan><tspan class="value">{X_LINK}</tspan>
-<tspan x="390" y="310" class="cc">- GitHub Stats</tspan> -—————————————————————————————————————————-—-
-<tspan x="390" y="330" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">{repo_count}</tspan>
-<tspan x="390" y="350" class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">{commit_count}</tspan>
-</text>
-</svg>
-"""
+## How To Use
 
-# ==========================
-# SAVE SVG FILE
-# ==========================
-with open(SVG_FILE, "w") as f:
-    f.write(svg_content)
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-print(f"SVG profile generated: {SVG_FILE}")
+```bash
+# Clone this repository
+$ git clone https://github.com/amitmerchant1990/electron-markdownify
+
+# Go into the repository
+$ cd electron-markdownify
+
+# Install dependencies
+$ npm install
+
+# Run the app
+$ npm start
+```
+
+> **Note**
+> If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+
+
+## Download
+
+You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) the latest installable version of Markdownify for Windows, macOS and Linux.
+
+## Emailware
+
+Markdownify is an [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this app or it has helped you in any way, I'd like you send me an email at <bullredeyes@gmail.com> about anything you'd want to say about this software. I'd really appreciate it!
+
+## Credits
+
+This software uses the following open source packages:
+
+- [Electron](http://electron.atom.io/)
+- [Node.js](https://nodejs.org/)
+- [Marked - a markdown parser](https://github.com/chjj/marked)
+- [showdown](http://showdownjs.github.io/showdown/)
+- [CodeMirror](http://codemirror.net/)
+- Emojis are taken from [here](https://github.com/arvida/emoji-cheat-sheet.com)
+- [highlight.js](https://highlightjs.org/)
+
+## Related
+
+[Try Web version of Markdownify](https://notepad.js.org/markdown-editor/)
+
+## Support
+
+If you like this project and think it has helped in any way, consider buying me a coffee!
+
+<a href="https://buymeacoffee.com/amitmerchant" target="_blank"><img src="app/img/bmc-button.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+
+## You may also like...
+
+- [Pomolectron](https://github.com/amitmerchant1990/pomolectron) - A pomodoro app
+- [Correo](https://github.com/amitmerchant1990/correo) - A menubar/taskbar Gmail App for Windows and macOS
+
+## License
+
+MIT
+
+---
+
+> [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp;
+> GitHub [@amitmerchant1990](https://github.com/amitmerchant1990) &nbsp;&middot;&nbsp;
+> Twitter [@amit_merchant](https://twitter.com/amit_merchant)
+
