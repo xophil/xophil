@@ -4,8 +4,7 @@
   <br>
 </h1>
 
-![screenshot](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExam9pcTJlNDJ6M2NhZTNhM3B5MmM5c2J5NWo1ZDM3OHBmYzVrdWphYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TRebCjNbc4dIA/giphy.gif)
-![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
+![screenshot](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHF2bWVmdWNuOTU5dDJwaHEyamI4cHFuODI4MTRnYzc5ZDI0anR4ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26tn33aiTi1jkl6H6/giphy.gif)
 
 
 > [amitmerchant.com](https://www.amitmerchant.com) &nbsp;&middot;&nbsp;
