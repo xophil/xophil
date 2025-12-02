@@ -8,7 +8,7 @@
 
 
 
-> [Github](https://github.com/xophil) &nbsp;&middot;&nbsp;
-> [X](https://x.com/thesilentsystm) &nbsp;&middot;&nbsp;
-> [LinkedIn](https://www.linkedin.com/in/sophil-sthapit/)
+<h2 align="center">[Github](https://github.com/xophil) </h2>
+[X](https://x.com/thesilentsystm)
+[LinkedIn](https://www.linkedin.com/in/sophil-sthapit/)
 
