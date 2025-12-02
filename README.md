@@ -8,7 +8,7 @@
 
 
 
-> GitHub [@xophil](https://github.com/xophil) &nbsp;&middot;&nbsp;
-> Twitter [@xophil](https://x.com/thesilentsystm)
-> Linkedin [@sophil-sthapit](https://www.linkedin.com/in/sophil-sthapit/)
+> [Github](https://github.com/xophil) &nbsp;&middot;&nbsp;
+> [X](https://x.com/thesilentsystm)
+> [LinkedIn](https://www.linkedin.com/in/sophil-sthapit/)
 
