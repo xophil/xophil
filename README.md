@@ -9,6 +9,6 @@
 
 
 > [Github](https://github.com/xophil) &nbsp;&middot;&nbsp;
-> [X](https://x.com/thesilentsystm)
+> [X](https://x.com/thesilentsystm) &nbsp;&middot;&nbsp;
 > [LinkedIn](https://www.linkedin.com/in/sophil-sthapit/)
 
