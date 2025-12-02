@@ -27,9 +27,7 @@ I hold a **Bachelor's in Computer Applications (BCA)** and specialize in **ethic
 ![Wireshark](https://img.shields.io/badge/Wireshark-Networking-blue?style=for-the-badge&logo=wireshark)
 ![Nmap](https://img.shields.io/badge/Nmap-Scanning-red?style=for-the-badge&logo=nmap)
 ![Metasploit](https://img.shields.io/badge/Metasploit-PenTest-black?style=for-the-badge&logo=metasploit)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)# Hi, I'm Sophil Sthapit 👋
-
-Welcome to my GitHub! I'm a **Cybersecurity Enthusiast**, passionate about securing systems and creating innovative solutions.  
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
 
 ---
 
