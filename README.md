@@ -9,7 +9,7 @@
 
 
 <h2 align="center"> 
-  <a href="https://github.com/xophil">Github</a>
+  <a href="https://github.com/xophil" gap="2">Github</a>
   <a href="https://x.com/thesilentsystm">X</a>
   <a href="https://www.linkedin.com/in/sophil-sthapit/">LinkedIn</a>
 </h2>
