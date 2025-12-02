@@ -8,7 +8,9 @@
 
 
 
-<h2 align="center"> <a href="https://github.com/xophil">Github</a></h2>
-<h2 align="center"> <a href="[https://github.com/xophil](https://x.com/thesilentsystm)">X</a></h2>
-<h2 align="center"> <a href="[https://github.com/xophil](https://www.linkedin.com/in/sophil-sthapit/)">LinkedIn</a></h2>
+<h2 align="center"> 
+  <a href="https://github.com/xophil">Github</a>
+  <a href="[https://github.com/xophil](https://x.com/thesilentsystm">X</a>
+  <a href="[https://github.com/xophil](https://www.linkedin.com/in/sophil-sthapit/">LinkedIn</a>
+</h2>
 
