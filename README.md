@@ -10,5 +10,5 @@
 </p>
 ---
 
-“Security is not a product, but a process.” – Bruce Schneier
+> “Security is not a product, but a process.” – Bruce Schneier
 
